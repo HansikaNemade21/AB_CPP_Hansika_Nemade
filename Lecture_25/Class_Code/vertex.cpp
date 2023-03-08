@@ -171,6 +171,6 @@ int main(int argc, char** argv, char** envp)
    l1.translate(12, -5, 0);
    l1.print();
 
-	exit(EXIT_SUCCESS);
+   exit(EXIT_SUCCESS);
 }
 
