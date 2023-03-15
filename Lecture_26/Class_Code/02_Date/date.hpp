@@ -1,6 +1,6 @@
 
 /*
-*         Default Initialization
+*        Enum class
 */
 
 #include<iostream>
