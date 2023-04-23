@@ -100,28 +100,6 @@ class Date
 
     }
 
-    /*// L value reference object of type Date
-    // pass by reference
-    Date(const Date& that)
-    {
-      this->m_day = that.m_day;
-      this->m_month = that.m_month;
-      this->m_year = that.m_year;
-      this->m_format = that.m_format;
-
-
-    }
-
-
-    //  R value reference object of type Date
-    Date(Date&& that)
-    {
-      this->m_day = that.m_day;
-      this->m_month = that.m_month;
-      this->m_year = that.m_year;
-      this->m_format = that.m_format;
-
-    }*/
 
     //   setter
     void  SetDateDay(unsigned short new_day)
