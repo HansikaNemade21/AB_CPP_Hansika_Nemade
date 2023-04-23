@@ -39,16 +39,6 @@ int main(int argc, char** argv, char** envp)
 
    std::cout<< std::endl;
 
-   /*Date Date3(Date1);
-
-   std::cout<< "\tDate3 (reference constructor)" <<std::endl;
-   Date3.Print();
-   std::cout<< std::endl;
-
-   std::cout<< "\tDate4 (reference constructor)" << std::endl;
-   Date Date4(Date2);
-   Date4.Print();*/
-
    Date Date3(&Date1);
    std::cout<< "\t Date3 (pass by pointer)" <<std::endl;
    Date3.Print();
